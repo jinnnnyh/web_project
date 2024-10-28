@@ -16,22 +16,10 @@
 
 
     <style>
-        /*strong {*/
-        /*    border: 1px solid black;*/
-        /*}*/
-
-        #res1 {
-            border: 1px solid black;
-        }
 
         #all {
             border: 1px solid black;
         }
-        /*#container{*/
-        /*    margin-top: 100px;*/
-        /*    border: 1px solid black;*/
-        /*}*/
-
         .list-group-btn {
             background-color: white;
 
@@ -156,14 +144,6 @@
 
             // 오늘 날짜말고 선택한 날짜 value에 넣음
             document.getElementById('date').value=dateParam;
-
-            // // 일단 오늘 날짜 넣고
-            // document.getElementById('date').value = now.toISOString().substring(0, 10);
-            // // 날짜 선택 버튼 누르면 주소에 있는 날짜로 바뀌게 해보자 ?
-            // $("#date-select").on("click", function(){
-            //     // 오늘 날짜말고 선택한 날짜 value에 넣음
-            //     document.getElementById('date').value=dateParam;
-            // });
 
             // date 태그의 최솟값을 오늘로 지정, 오늘 이전 날짜 선택 못함
             document.getElementById('date').min = now.toISOString().substring(0,10);
@@ -332,7 +312,7 @@
             // url:현지 전체 주소 , 문자열로 바꾼 주소 앞에서 한개 잘라오기
             // http 부터 시작
             console.log(url);
-            let cafeid = url.slice(43,44);
+            let cafeid = 6
             console.log(cafeid);
 
             $.ajax({
@@ -431,14 +411,6 @@
                     alert("통신 중 오류 발생");
                 }
             });
-
-
-
-            // 버튼 사용시 페이지 이동
-            // $("#part2").click(function() {
-            //    location.href = "/hongdae/1/2/10"
-            // });
-
 
         });
     </script>
@@ -576,7 +548,7 @@
 <nav>
     <a id="quickmenu2" href="#">top</a>
 </nav>
-<footer th:replace="~{/layout/footer :: footer}"></footer>
+<footer th:replace="~{layout/footer :: footer}"></footer>
 
 </body>
 

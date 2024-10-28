@@ -16,30 +16,8 @@
 
 
     <style>
-        /*strong {*/
-        /*    border: 1px solid black;*/
-        /*}*/
-
-        #res1 {
-            border: 1px solid black;
-        }
-
         #all {
             border: 1px solid black;
-        }
-        /*#container{*/
-        /*    margin-top: 100px;*/
-        /*    border: 1px solid black;*/
-        /*}*/
-
-        .list-group-btn {
-            background-color: white;
-            border: none;
-            width: 100%;
-            text-align: center;
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
         }
 
         .list-group-btn a {
@@ -51,38 +29,8 @@
             text-decoration: none;
             color: white;
         }
-        .list-group-btn:hover {
-            background-color: orange;
-            color: white;
-        }
-
-        .time-link {
-            color: black;
-            text-decoration: none;
-        }
-
-        .time-link:hover {
-            background-color: orange;
-        }
-
-        .list-group-item {
-            padding: 0;
-        }
-
-        .flex-column {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .list-unstyled {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
 
          .timebtn a{
-
              /* 두께 선종류 색깔*/
              border:1px solid orange;
              /*border-style:solid;*/
@@ -137,11 +85,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gothic+A1&family=Gowun+Dodum&display=swap" rel="stylesheet">
 
     <style>
-        .do-hyeon-regular {
-            font-family: "Do Hyeon", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-        }
         .gothic-a1-regular {
             font-family: "Gothic A1", sans-serif;
             font-weight: 600;
@@ -165,14 +108,6 @@
 
             // 오늘 날짜말고 선택한 날짜 value에 넣음
             document.getElementById('date').value=dateParam;
-
-            // // 일단 오늘 날짜 넣고
-            // document.getElementById('date').value = now.toISOString().substring(0, 10);
-            // // 날짜 선택 버튼 누르면 주소에 있는 날짜로 바뀌게 해보자 ?
-            // $("#date-select").on("click", function(){
-            //     // 오늘 날짜말고 선택한 날짜 value에 넣음
-            //     document.getElementById('date').value=dateParam;
-            // });
 
             // date 태그의 최솟값을 오늘로 지정, 오늘 이전 날짜 선택 못함
             document.getElementById('date').min = now.toISOString().substring(0,10);
@@ -341,7 +276,7 @@
             // url:현지 전체 주소 , 문자열로 바꾼 주소 앞에서 한개 잘라오기
             // http 부터 시작
             console.log(url);
-            let cafeid = url.slice(42,43);
+            let cafeid = 1;
             console.log(cafeid);
 
             $.ajax({
@@ -440,18 +375,6 @@
                     alert("통신 중 오류 발생");
                 }
             });
-
-
-
-            // 버튼 사용시 페이지 이동
-            // $("#part2").click(function() {
-            //    location.href = "/hongdae/1/2/10"
-            // });
-
-
-
-
-
 
         });
     </script>
@@ -585,7 +508,7 @@
         <a id="quickmenu2" href="#">top</a>
     </nav>
 
-<footer th:replace="~{/layout/footer :: footer}"></footer>
+<footer th:replace="~{layout/footer :: footer}"></footer>
 </div>
 </body>
 
