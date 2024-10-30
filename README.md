@@ -24,6 +24,8 @@
 * Thymeleaf
 * jQuery
 * Ajax
+### 개발환경
+* InteliJ IDEA
 ### ETC
 * Git Hub
 * Source Tree
