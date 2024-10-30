@@ -13,6 +13,7 @@
 * Mybatis
 * Tomcat
 * Gradle
+* AWS(배포)
 ### Front-end
 * HTML
 * Bootstrap
