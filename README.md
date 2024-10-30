@@ -37,4 +37,8 @@
 ## :snowman: Use Case
 ![usecase](https://github.com/user-attachments/assets/5dc0de6a-221f-45a9-abbd-07b23dcd93af)
 
+## :snowman: 느낀점
+예기치 않게 팀원이 많이 줄어 마감의 어려움을 겪었지만, 그 덕분에 백엔드와 프론트엔드를 모두 개발해볼 수 있는 좋은 경험이 되었다.<br>
+프론트에서 반복되는 코드 부분을 함수로 정의해서 깔끔하게 정리하고 싶다.
+join 과 서브 쿼리에 대해 더 알아야할 필요가 있다.
 
