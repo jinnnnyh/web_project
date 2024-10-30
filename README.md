@@ -4,3 +4,25 @@
 * 회원제를 기반으로 한 예약 시스템 구축
 * 고객 참여를 유도하는 포인트 제도 도입
 * 예약 내역을 바탕으로 한 후기 게시판 개설
+
+## :snowman: 활용 기술
+### Back-end
+* Java17
+* Spring boot
+* MySQL
+* Mybatis
+* Tomcat
+* Gradle
+### Front-end
+* HTML
+* Bootstrap
+* Thymeleaf
+* jQuery
+* Ajax
+### ETC
+* Git Hub
+* Source Tree
+
+## :snowman: ERD 설계
+
+## :snowman: Use Case
