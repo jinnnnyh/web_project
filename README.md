@@ -28,10 +28,13 @@
 * Git Hub
 * Source Tree
 
+## :snowman: 사이트 이미지
+![깃허브용 이미지 캡쳐](https://github.com/user-attachments/assets/aea8d2b5-4c2c-451d-82b5-a57188979529)
+
 ## :snowman: ERD 설계
 ![ERD](https://github.com/user-attachments/assets/6a7ffbc4-f84c-44ea-b127-cf44809312c1)
 
 ## :snowman: Use Case
 ![usecase](https://github.com/user-attachments/assets/5dc0de6a-221f-45a9-abbd-07b23dcd93af)
 
-## :snowman: 
+
