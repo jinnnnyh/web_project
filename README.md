@@ -1,4 +1,4 @@
-# :snowman: Check Manager 프로젝트
+![어플 뷰2](https://github.com/user-attachments/assets/6012482f-b78c-41e0-a7e9-bcdf4bbb469b)# :snowman: Check Manager 프로젝트
 > 협회 회원 관리 및 행사 참석자 관리용 웹사이트 / 
 > 출석 QR, 참석증 발급 회원용 어플을 제작했습니다.
 
@@ -27,16 +27,21 @@
 * Source Tree
 
 ## :snowman: 사이트 이미지
-![깃허브용 이미지 캡쳐](https://github.com/user-attachments/assets/aea8d2b5-4c2c-451d-82b5-a57188979529)
+![웹 이미지 캡쳐](https://github.com/user-attachments/assets/dcec9bee-dee2-4c05-993a-9fd50d5cb10d)
+
+
+## :snowman: 어플 이미지
+![어플 뷰2](https://github.com/user-attachments/assets/22f9dfcd-fe7c-4d06-a552-295a3c16629a)
+
 
 ## :snowman: ERD 설계
-![ERD](https://github.com/user-attachments/assets/6a7ffbc4-f84c-44ea-b127-cf44809312c1)
+![erd 최종](https://github.com/user-attachments/assets/4a32f4f1-af45-43b5-94ac-3bbfa426cba6)
+
 
 ## :snowman: Use Case
-![usecase](https://github.com/user-attachments/assets/5dc0de6a-221f-45a9-abbd-07b23dcd93af)
+![usecase](https://github.com/user-attachments/assets/aaed2287-cd2a-4561-88fe-a26c9c3b1a57)
+
 
 ## :snowman: 느낀점
-예기치 않게 팀원이 많이 줄어 마감의 어려움을 겪었지만, 그 덕분에 백엔드와 프론트엔드를 모두 개발해볼 수 있는 좋은 경험이 되었다.<br>
-프론트에서 반복되는 코드 부분을 함수로 정의해서 깔끔하게 정리하고 싶다.
-join 과 서브 쿼리에 대해 더 알아야할 필요가 있다.
+
 
