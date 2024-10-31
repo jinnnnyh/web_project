@@ -1,12 +1,9 @@
-# :snowman: 비트포비아 클론 코딩 프로젝트
->기존의 방 탈출 카페 예약 사이트인 비트포비아를 클론 코딩한 팀프로젝트입니다.<br>
-기존 웹사이트의 개선을 목적으로 아래와 같이 개발 방향을 정했습니다.
-* 회원제를 기반으로 한 예약 시스템 구축
-* 고객 참여를 유도하는 포인트 제도 도입
-* 예약 내역을 바탕으로 한 후기 게시판 개설
+# :snowman: Check Manager 프로젝트
+> 협회 회원 관리 및 행사 참석자 관리용 웹사이트 / 
+> 출석 QR, 참석증 발급 회원용 어플을 제작했습니다.
 
   
-## :snowman: [시연영상](https://youtu.be/jqKKebv90v0)
+## :snowman: [시연영상](https://youtu.be/lJK2MwSwdt0)
 
 
 ## :snowman: 활용 기술
@@ -17,15 +14,14 @@
 * Mybatis
 * Tomcat
 * Gradle
+* Firebase Cloud Messaging(알림)
 * AWS(배포)
 ### Front-end
-* HTML
-* Bootstrap
-* Thymeleaf
-* jQuery
-* Ajax
+* React
+* Kotlin
 ### 개발환경
 * InteliJ IDEA
+* Android Studio
 ### ETC
 * Git Hub
 * Source Tree
