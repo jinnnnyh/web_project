@@ -6,8 +6,7 @@
 * 예약 내역을 바탕으로 한 후기 게시판 개설
 
   
-## :snowman: 시연영상
-
+## :snowman: [시연영상](https://youtu.be/jqKKebv90v0)
 
 
 ## :snowman: 활용 기술
